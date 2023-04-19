@@ -79,3 +79,30 @@ body{
 	color: crimson;
 	opacity: 80%;
 }
+/* logo */
+.dis{
+  background-color: #0f1419;
+  color: #fff; 
+  font-size:2rem;
+  border: 2px solid #0f1419;
+  border-radius: 3px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  padding-top: 2px; 
+  user-select: none;
+}
+
+/* media query for mobile devices */
+
+@media only screen and (max-width: 768px){
+  .box{
+    width: 100%;
+  }
+  .myBtn{
+    font-size: 16px;
+  }
+  .dis{
+    font-size: 1.8rem;
+  }
+}
