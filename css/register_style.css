@@ -7,16 +7,23 @@ border-color:#272727;
 outline:0;
 box-shadow: none;
  }
+.img-style{
+  background: #333 url(../images/backgrounds/snow_tree.jpg) no-repeat center center/cover;
+  height: 100vh;
+}
+
 .col-centered{
     float: none;
     margin: 0 auto;
 }
-.page-holder {
+
+/* .page-holder {
   min-height: 100vh;
 }
 .bg-cover {
   background-size: cover !important;
-}
+} */
+
 .form-control{
   font-size: 14px;
 }
