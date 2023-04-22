@@ -62,7 +62,8 @@ color: dodgerblue !important;
   padding-right: 0px;
 }
 body {
-  background-color: #dae0e6;
+  /* background-color: #dae0e6; */
+  background: url('../images/backgrounds/Pattern.png') top left repeat, #dae0e6;
 }
 
 p{
