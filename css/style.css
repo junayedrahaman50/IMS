@@ -120,6 +120,52 @@ color: dodgerblue;
 
    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+.myBtnSell{
+  padding:10px 69px;
+  font-size: 18px;
+  display: inline-block;
+  background-color:#0f1419;
+  border:none;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: 0.5s;
+  outline: none;
+  cursor: pointer;
+  overflow: hidden;
+  color: #fff;
+
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.myBtnSell:hover{
+
+   text-decoration: none;
+ color: #fff;
+
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.myBtnCart{
+  padding:10px 20px;
+  font-size: 18px;
+  display: inline-block;
+  background-color:#0f1419;
+  border:none;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: 0.5s;
+  outline: none;
+  cursor: pointer;
+  overflow: hidden;
+  color: #fff;
+
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.myBtnCart:hover{
+
+   text-decoration: none;
+ color: #fff;
+
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
 
 
 
@@ -174,6 +220,12 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
   }
   .myBtnPrimary{
     padding: 10px 40px;
+  }
+  .myBtnSell{
+    padding: 10px 109px;
+  }
+  .myBtnCart{
+    padding: 10px 56px;
   }
 
   #contact p{
