@@ -66,8 +66,8 @@
       <a href="index.html" class="navbar-brand">
         <span>IMS</span>
       </a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span></button>
+      <button onclick="call()" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span id="navIcon" style="background-image: url('images/icons/x.svg');" class="navbar-toggler-icon navIcon"></span></button>
         
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
@@ -194,6 +194,11 @@ $('ul li a').on('click', function(event) {
     );
   }
 });
+
+function call(){
+  var navIcon = document.querySelector("#navIcon");
+  navIcon.classList.toggle("navIcon");
+}
 
 </script>
 </body>
