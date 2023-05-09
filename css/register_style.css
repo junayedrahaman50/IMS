@@ -116,6 +116,13 @@ body{
   }
 }
 
+button:active{
+  background-color: rgba(111, 209, 255, 0.3);
+}
+a:active{
+  background-color: rgba(111, 209, 255, 0.3);
+}
+
 ::selection{
   background-color: skyblue;
 }

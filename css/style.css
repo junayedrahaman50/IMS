@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Rushk';
+  src: url('../fonts/Rushk.otf');
+}
 
 #developers span{
   text-align: center;
@@ -6,10 +10,12 @@
   font-family: 'Lexend', sans-serif;
 }
 
-button, a{
-  
+button:active{
+  background-color: rgba(111, 209, 255, 0.3);
 }
-
+a:active{
+  background-color: rgba(111, 209, 255, 0.3);
+}
 #box2{
   margin-bottom: 20px !important;
   box-shadow: 0 0 1px rgba(0,0,0,0.2);
@@ -20,9 +26,8 @@ button, a{
 
 #nav-link{
     color: #0f1419 !important;
-    font-family: 'Passion One', cursive;
+    font-family: 'Oswald', cursive;
     transition: 0.3s;
-
 user-select: none;
 }
 #nav-link:hover{
@@ -30,7 +35,7 @@ user-select: none;
 color: dodgerblue !important;
 }
 .navbar-brand{
-  font-family: 'Lexend', sans-serif;
+  font-family: 'Oswald', cursive;
   font-size: 1.5rem;
   color: #0f1419 !important; 
   user-select: none;
@@ -64,9 +69,9 @@ color: dodgerblue !important;
     background-image: url('../images/icons/list.svg') !important;
     
 }
-.navbar-toggler:active{
+/* .navbar-toggler:active{
   background-color: rgba(111, 209, 255, 0.3);
-}
+} */
 .col-centered{
   float: none !important;
   margin: 0 auto !important;
@@ -88,7 +93,7 @@ p{
   font-size: 1.25rem;
 }
 .passion{
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: normal;
 }
 
@@ -240,6 +245,11 @@ textarea {
 }
 .icons a i:hover{
   color: rgb(29, 133, 236);
+}
+
+.category-list{
+  display: flex;
+  justify-content: center;
 }
 @media (min-width: 500px){
 .jumbotron {

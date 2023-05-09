@@ -9,8 +9,8 @@
     <!--open graph tags-->
 <meta property="og:image" content="images/thumbnail.png">
 <meta property="og:description" content="This web application is responsible for CRUD(Create Read Update Delete) of Inventory. There are two roles available for user - 1) Admin and 2) Seller. Admin can perform CRUD operations and Data Analysis on inventory and Seller can sell(Update) items from inventory.">
-<meta property="og:title" content="IMS - Inventory Management System">
-	<title>IMS - Inventory Management System</title>
+<meta property="og:title" content="Travel Blog - Share Your Travelling Experiences">
+	<title>Travel Blog - Share Your Travelling Experiences</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -64,7 +64,8 @@
   <nav class="navbar navbar-expand-md navbar-light">
     <div class="container">
       <a href="index.html" class="navbar-brand">
-        <span>IMS</span>
+        <span>TRAVEL BLOG</span>
+        <!-- <img src="images/logos/logo_3.png" alt="" width="150"> -->
       </a>
       <button onclick="call()" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
         <span id="navIcon" style="background-image: url('images/icons/x.svg');" class="navbar-toggler-icon navIcon"></span></button>
@@ -72,17 +73,14 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a id="nav-link" href="register.html" class="nav-link"><i class="fa fa-user"></i> Login/Sign Up</a>
+            <a id="nav-link" href="register.html" class="nav-link">Login/Sign Up</a>
           </li>
           <li class="nav-item">
-            <a id="nav-link" href="inventory.html" class="nav-link"><i class="fa fa-archive" aria-hidden="true"> </i> Inventory</a>
+            <a id="nav-link" href="inventory.html" class="nav-link">Blog</a>
           </li>         
 
           <li class="nav-item">
-            <a id="nav-link" href="#" class="nav-link"><i class="fa fa-pie-chart" aria-hidden="true"></i> Analysis</a>
-          </li>
-          <li class="nav-item">
-            <a id="nav-link" href="#contact" class="nav-link"><i class="fa fa-commenting"></i> Contact</a>
+            <a id="nav-link" href="#contact" class="nav-link">Contact</a>
           </li>
         </ul>
       </div>
@@ -95,8 +93,8 @@
         
         <div id="about" class="jumbotron" style="background-color:#fff !important;color:#0f1419 !important;border-radius:3px !important;"> 
         
-        <h4 class="text-center passion text-dark"><i class="fa fa-archive" aria-hidden="true"></i> IMS - Inventory Management System</h4>
-          <p class="text-center pt-3">This web application is responsible for CRUD(Create Read Update Delete) of Inventory. There are two roles available for user - 1) Admin and 2) Seller. Admin can perform CRUD operations and Data Analysis on inventory and Seller can sell(Update) items from inventory.</p>
+        <h4 class="text-center passion text-dark">Travel Blog - Share Your Travelling Experiences</h4>
+          <p class="text-center pt-3">Welcome to our travel blog! We're a team of explorers who are passionate about discovering the world and sharing our experiences with you. From hidden gems to popular tourist destinations, we aim to inspire your wanderlust and help you plan your next adventure. Our blog features travel tips, destination guides, and personal stories that will take you on a journey around the globe. Join us as we uncover the beauty and diversity of different cultures, cuisines, and landscapes. Let's explore together!</p>
         </div>
       </div>
       </div>
@@ -106,26 +104,49 @@
       <div class="row">
         <div class="col-lg-10 col-md-10 col-sm-12 col-centered">
         <div class="box" style="background-color:#fff !important;color:#0f1419 !important;border-radius:3px !important;padding: 20px;">
-          <h4 class="text-center passion pb-2 text-success"><i class="fa fa-code" aria-hidden="true"></i> Our Developers</h4>
+          <h4 class="text-center passion pb-2 text-dark">Categories</h4>
 
-          <div id="developers">
-            <span>Junayed Rahaman - Frontend, PHP CRUD, MySQL</span>
-            <span>Aratrik Nath - Data Mining, JSON, Javascript</span>
-            <span>Debjani Sarkar - Testing, MySQL, Documentation</span>
-          </div>
+  <!-- <div class="list-row">
+    <span style="background-color: #5E17EB; color: white; border-radius: 500px;padding: 10px;">Destination guides</span>
+    <span>Travel tips</span>
+    <span>Food and drink</span>
+  </div>
+  <div class="list-row">
+<span>Adventure travel</span>
+<span>Culture and history</span>
+<span>Accommodation</span>
+</div>
+<div class="list-row">
+<span>Road trips</span>
+<span>Budget travel</span>
+</div> -->
+<div class="category-list">
+<span style="background-color: #5E17EB; color: white; border-radius: 500px;padding: 10px;margin-right: 10px;">Travel tips</span>
+<span style="background-color: #38B6FF; color: white; border-radius: 500px;padding: 10px;margin-right: 10px;">Culture</span>
+<span style="background-color: #FF66C4; color: white; border-radius: 500px;padding: 10px;">Accommodation</span>
+<!-- <span>Adventure travel</span> -->
+</div>
+<div class="category-list mt-2">
+<span style="background-color: coral; color: white; border-radius: 500px;padding: 10px;margin-right: 10px;">Road trips</span>
+<span style="background-color: yellowgreen; color: white; border-radius: 500px;padding: 10px;margin-right: 10px;">Budget travel</span>
+<span style="background-color: cornflowerblue; color: white; border-radius: 500px;padding: 10px;">Food and drink</span>
+<!-- <span>Adventure travel</span> -->
+</div>
+
 
         </div>
 
         
       </div>
       </div>
+
     </div>
 
     <div id="contact" class="container">
       <div class="row">
         <div class="col-lg-10 col-md-10 col-sm-12 col-centered">
           <div class="box my-3" style="background-color:#fff !important;color:#0f1419 !important;border-radius:3px !important;padding: 20px;">
-            <h4 class="text-center passion text-primary pb-4"><i class="fa fa-phone-square" aria-hidden="true"></i> Contact Us</h4>
+            <h4 class="text-center passion text-dark pb-4">Contact Us</h4>
             <!-- contact form -->
             <!-- <form action="/msg/message.php" method="post">
               <div class="form-group ubuntu">
@@ -150,7 +171,11 @@
               <a  href="#" data-toggle="tooltip"  data-placement="bottom" title="Github"><i class="fa fa-github fa-3x"></i></a>
             </div>
 
-            <p class="text-center pt-4"> Copyright &copy; IMS 2023 </p>
+            <p class="text-center pt-4"> Copyright &copy; TravelBlog INC 2023 
+              <br>
+              <br>
+              Designed and developed by Junayed Rahaman
+            </p>
           
           </div>
         </div>
